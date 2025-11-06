@@ -10,7 +10,7 @@ from dash import Dash,dcc,html,Input,Output
 from dash import dash_table
 
 
-df=pd.read_excel("edadmedia.xlsx")
+
 
 #dashboards financiera
 
@@ -19,6 +19,8 @@ app=dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
 
 #git
 server=app.server
+
+df=pd.read_excel("edadmedia.xlsx")
 
 app.title="Dashboard Financiero"
 
