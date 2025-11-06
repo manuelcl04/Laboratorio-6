@@ -10,13 +10,15 @@ from dash import Dash,dcc,html,Input,Output
 from dash import dash_table
 
 
-#git
-server=app.server
+
 
 #dashboards financiera
 
 #paso 1 inciar dash
 app=dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
+
+#git
+server=app.server
 
 app.title="Dashboard Financiero"
 
