@@ -10,7 +10,7 @@ from dash import Dash,dcc,html,Input,Output
 from dash import dash_table
 
 
-
+df=pd.read_excel("edadmedia.xlsx")
 
 #dashboards financiera
 
